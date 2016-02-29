@@ -3,6 +3,7 @@
 
 import 'dart:html';
 import 'package:paper_elements/paper_button.dart';
+//import 'package:text_reverser.dart';
 import 'package:polymer/polymer.dart';
 
 CanvasElement canvas;
@@ -10,7 +11,6 @@ CanvasRenderingContext2D context;
 
 void main() async{
 	await initPolymer();
-
 
 	querySelector('#output').text = 'Your Dart app is running.';
   	canvas = querySelector('#mainCanvas');

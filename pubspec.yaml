@@ -20,4 +20,6 @@ dependencies:
 transformers:
 - dart_to_js_script_rewriter
 - polymer:
-    entry_points: web/index.html
+    entry_points: 
+    - web/index.html
+    - web/text_reverser.html
